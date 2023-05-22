@@ -18,7 +18,7 @@ def classify_image(inp):
     confidence = {labels[i]: float(pred[i]) for i in range(len(labels))}
     return confidence
 
-app = gr.Interfact(fn = classify_image,
+app = gr.Interface(fn = classify_image,
                    inputs = gr.Image(shape=(224, 224)), 
                    outputs = gr.label(num_top_classes = 3)
 )
