@@ -41,3 +41,22 @@ def prediction(pic):
 upload= st.file_uploader('Insert image for classification', type=['png','jpg', 'jpeg']) # for user to upload picture
 c1, c2= st.columns(2, gap="large") # creating 2 columns
 
+if upload is not None:
+    img = Image.open(upload) # collect image
+    
+    c1.header('Your Picture')
+    c1.image(img) # show image on screen
+    answer, pred = prediction(img) # predict label image
+
+    c2.header('Predictions :')
+    c2.subheader(f"This is a/an {labels[answer]} Bus") # display  prediction
+    
+    # get the 3 most accurate predictions
+    sorted_values = sorted(pred.items(), key=lambda x: x[1], reverse=True)[:3]
+
+    # Loop over the sorted values and create a progress bar for each label and prediction
+    for key, value in sorted_values:
+        c2.write(key)
+        progress_bar = c2.progress(0)
+        for i in range(3):
+            progress_bar.progress(value, text=f"with {value * 100:.2f}% confidence ")
