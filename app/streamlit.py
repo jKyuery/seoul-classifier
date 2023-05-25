@@ -38,7 +38,7 @@ def prediction(pic):
     confidences = {labels[i]: float(x[i]) for i in range(5)} # get prediction for each label and store in a dictionary
     return pred, confidences
 
-upload= st.file_uploader('Insert image for classification', type=['png','jpg', 'jpeg']) # for user to upload picture
+upload= st.file_uploader('Insert image for classification', type=['png','jpg', 'jpeg', 'webp']) # for user to upload picture
 c1, c2= st.columns(2, gap="large") # creating 2 columns
 
 if upload is not None:
