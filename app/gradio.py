@@ -2,7 +2,7 @@ import tensorflow as tf
 import tensorflow_hub as tfh
 
 import gradio as gr
-import requests
+#import requests
 
 model = tf.keras.models.load_model(
     ("final_model.h5"), custom_objects = {'KerasLayer': tfh.KerasLayer}
