@@ -32,9 +32,19 @@ The data was scraped using the [Google Image Scraper](https://github.com/ohyicon
 - Base CNN 
     - Training Accuracy: 98%
     - Test Accuracy: 75%
-![Opera Snapshot_2023-05-26_205442_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205442_localhost.png)
+    -![Opera Snapshot_2023-05-26_205442_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205442_localhost.png)
 - Data Augmentation + CNN
     - Training Accuracy: 55%
     - Test Accuracy: 55%
-![Opera Snapshot_2023-05-26_205512_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205512_localhost.png)   
-- 
+    -![Opera Snapshot_2023-05-26_205512_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205512_localhost.png)   
+- Transfer Learning
+    - Training Accuracy: 97%
+    - Test Accuracy: 84%
+    - [Opera Snapshot_2023-05-26_205548_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205548_localhost.png)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Model Deployment
+The final model that correctly classified the buses with high accuracy was deployed on a web application on Streamlit.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Afterthoughts
+This was just a one-dimensional model. There are some inaccuracies with the labeling. To further accurately classify the buses, we would need to add a dimension or two to check for two colors and hues.
