@@ -32,5 +32,9 @@ The data was scraped using the [Google Image Scraper](https://github.com/ohyicon
 - Base CNN 
     - Training Accuracy: 98%
     - Test Accuracy: 75%
+![Opera Snapshot_2023-05-26_205442_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205442_localhost.png)
 - Data Augmentation + CNN
+    - Training Accuracy: 55%
+    - Test Accuracy: 55%
+![Opera Snapshot_2023-05-26_205512_localhost.png](https://github.com/jKyuery/seoul-classifier/blob/main/data/Opera%20Snapshot_2023-05-26_205512_localhost.png)   
 - 
