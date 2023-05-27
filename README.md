@@ -29,3 +29,8 @@ The data was scraped using the [Google Image Scraper](https://github.com/ohyicon
 - Used Mobilenet V2 pretrained model for Transfer Learning
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Model Performance
+- Base CNN 
+    - Training Accuracy: 98%
+    - Test Accuracy: 75%
+- Data Augmentation + CNN
+- 
