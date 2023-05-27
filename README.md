@@ -1,4 +1,5 @@
 # seoul-classifier
+
 This is a project classifying different types of buses in Seoul
 
 By this [website](https://english.visitkorea.or.kr/enu/TRP/TP_ENG_8_1_1.jsp), there are 5 different types of buses in Seoul.
@@ -48,6 +49,8 @@ The data was scraped using the [Google Image Scraper](https://github.com/ohyicon
 ## Model Deployment
 The final model that correctly classified the buses with high accuracy was deployed on a web application on Streamlit.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Try it out!
+[Here](https://jkyuery-seoul-classifier-appstreamlit-hkxunv.streamlit.app)
+
 ## Afterthoughts
 This was just a one-dimensional model. There are some inaccuracies with the labeling. To further accurately classify the buses, we would need to add a dimension or two to check for two colors and hues.
