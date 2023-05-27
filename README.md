@@ -48,6 +48,7 @@ The data was scraped using the [Google Image Scraper](https://github.com/ohyicon
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Model Deployment
 The final model that correctly classified the buses with high accuracy was deployed on a web application on Streamlit.
+    - ![streamlit-streamlit-2023-05-26-21-05-81.gif](https://github.com/jKyuery/seoul-classifier/blob/main/data/streamlit-streamlit-2023-05-26-21-05-81.gif)
 
 ## Try it out!
 [Here](https://jkyuery-seoul-classifier-appstreamlit-hkxunv.streamlit.app)
