@@ -18,6 +18,7 @@ By this [website](https://english.visitkorea.or.kr/enu/TRP/TP_ENG_8_1_1.jsp), th
 - And Night buses which operate only at night
     - ![s_night (1).jpeg](attachment:6c898ea5-af8f-462c-924e-ce3c94fb265f.jpeg)
 
+- There's other buses that roam around Seoul too.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 The data was scraped using the [Google Image Scraper](https://github.com/ohyicong/Google-Image-Scraper) and hand picked from NamuWiki pages.
 
