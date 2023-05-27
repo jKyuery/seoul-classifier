@@ -19,7 +19,13 @@ By this [website](https://english.visitkorea.or.kr/enu/TRP/TP_ENG_8_1_1.jsp), th
     - ![s_night (1).jpeg](https://github.com/jKyuery/seoul-classifier/blob/main/data/s_night/s_night%20(1).jpeg)
 
 - There's other buses that roam around Seoul too.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 The data was scraped using the [Google Image Scraper](https://github.com/ohyicong/Google-Image-Scraper) and hand picked from NamuWiki pages.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Scraped, handpicked and labeled data
+- Converted images into tensors and performed feature normalization / scaling 
+- Used Convoluted Neural Network as base, Data Augmentation and Transfer Learning to determine which method provided the best performance
+- Used Mobilenet V2 pretrained model for Transfer Learning
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Model Performance
